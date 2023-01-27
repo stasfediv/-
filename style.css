@@ -1,69 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,900;1,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;900&display=swap');
 
-h1,h2,h3{
-   font-family: 'Roboto', sans-serif;
-}
 *{
    margin: 0px;
 }
-td, th{
+
+h1, h2, h3{
+   font-family: 'Roboto', sans-serif;
+}
+
+td,th{
    border: 2px solid black;
 }
+
 .bloc-1{
-   background-color: aqua;
-   color: orange;
+   background-color:aqua;
+   color: rgb(54, 6, 58);
+   font-family: 'Source Serif Pro', serif;
+   position: relative;
 }
 .bloc-2{
    background-color: coral;
-   color: blue;
+   color: azure;
+   font-family: 'Source Serif Pro', serif;
+   position: relative;
 }
 .bloc-3{
-   background-color: darkseagreen;
-   color: brown;
+   background-color: darkolivegreen;
+   color: red;
+   font-family: 'Source Serif Pro', serif;
+   position: relative;
 }
 .bloc-4{
    background-color: hotpink;
-   color: darkgoldenrod;
+   color: crimson;
+   font-family: 'Source Serif Pro', serif;
+   position: relative;
 }
-.blocs{
-   width: 100%;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-}
+
 #z1{
-   text-align: center;
    width: 80px;
    height: 20px;
-   background-color: blueviolet;
    border: 1px solid black;
-   position: relative;
-   color: aqua;
-}
-#z2{
+   background-color: brown;
+   color: blue;
    text-align: center;
+}
+
+#z2{
    width: 110px;
    height: 20px;
-   background-color: chartreuse;
    border: 1px solid black;
-   position: relative;
-}
-#z3{
+   background-color: blue;
+   color: darkgoldenrod;
    text-align: center;
+}
+
+#z3{
    width: 150px;
    height: 20px;
-   background-color: orange;
    border: 1px solid black;
-   position: relative;
-}
-#z4{
+   background-color: cornflowerblue;
+   color: greenyellow;
    text-align: center;
+}
+
+#z4{
    width: 200px;
    height: 20px;
-   background-color: cornflowerblue;
    border: 1px solid black;
-   position: relative;
+   background-color: indigo;
+   color: bisque;
+   text-align: center;
 }
+
+.zag{
+   font-size: 120%;
+   font-family: 'Unbounded', cursive;
+}
+
 #z1, #z2, #z3, #z4{
    position: absolute;
    bottom: 0;
@@ -71,13 +87,17 @@ td, th{
    margin: 0px;
    padding: 6px;
 }
+
+.blocs{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
 ol, p, table, img{
    margin-bottom: 70px;
 }
-.zag{
-   font-size: 120%;
-}
-
 @media (min-width: 992px){
    .col-lg-1 {
    width: 8.33%;
